@@ -10,7 +10,7 @@ async function bootstrap() {
   // env config
   config({ path: resolve(__dirname, '../.env') });
   // port
-  const PORT = process.env.PORT || 3000;
+  const PORT = process.env.PORT || 5000;
   // cors setup
   app.enableCors();
   // start app
